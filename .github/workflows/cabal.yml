@@ -16,7 +16,7 @@ jobs:
       matrix:
         os: [ubuntu-latest]
         ghc-ver: [9.8.2, 9.6.4, 9.4.8, 9.2.8, 9.0.2, 8.10.7, 8.8.4, 8.6.5, 8.4.4, 8.2.2, 8.0.2]
-        cabal-ver: latest
+        cabal-ver: [latest]
 
     runs-on: ${{ matrix.os }}
     steps:
